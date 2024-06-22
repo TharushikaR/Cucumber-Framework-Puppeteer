@@ -1,0 +1,32 @@
+{
+  "name": "cucumber-framework-puppeteer",
+  "version": "1.0.0",
+  "description": "Cucumber Framework-Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "generate:report": "node report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TharushikaR/Cucumber-Framework-Puppeteer.git"
+  },
+  "keywords": [
+    "Cucumber",
+    "Puppeteer",
+    "gherkin",
+    "JS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TharushikaR/Cucumber-Framework-Puppeteer/issues"
+  },
+  "homepage": "https://github.com/TharushikaR/Cucumber-Framework-Puppeteer#readme",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^7.1.1",
+    "puppeteer": "^22.12.0"
+  }
+}
